@@ -1,0 +1,36 @@
+.btn-square-md {
+    width: 100px !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    height: 100px !important;
+    text-align: center;
+    padding: 10px;
+    font-size:18px;
+    }
+
+#restart {
+  align-content: center;
+}
+
+      /* .box {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        height: 10vh;
+        width: 10vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--text);
+      } */
+
+      #restart {
+        background-color: var(--btn-bg);
+        border: none;
+        border-radius: 20px;
+        color: var(--bg);
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        text-transform: uppercase;
+      }
