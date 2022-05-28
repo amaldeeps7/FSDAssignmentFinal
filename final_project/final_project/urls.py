@@ -18,10 +18,12 @@ from django.urls import path, include
 from final_app import views
 from todo_api import urls as todo_urls
 from blog import urls as blog_urls
+from my_app import urls as my_app_urls
 
 
 urlpatterns = [
     path('', views.index, name='index'),
+    path('', include(my_app_urls)),
     path('admin/', admin.site.urls),
     path('index.html', views.index, name='index'),
     path('tictactoe.html', views.tictactoe, name='tictactoe'),
